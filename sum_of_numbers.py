@@ -18,7 +18,7 @@ def main():
         # if the user's input is converted to a string, this code will check if it's below 0
         if user_loop < 0:
             print("Integer can not be a negative number.")
-        # else it will just start a loop and track the loop the amount of times the user's number
+        # else it will just start a loop and track the loop the amount of times the user's input
         else:
             while counter_loop < user_loop:
                 counter_loop += 1
